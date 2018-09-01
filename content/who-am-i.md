@@ -1,6 +1,7 @@
 ---
 title: "Who Am I"
 date: 1995-10-15T04:15:00+01:00
+hidden: true
 ---
 
 Hi! My name is Bogdan Habić and I was born <span id="birth-time-ago"></span> ago.
