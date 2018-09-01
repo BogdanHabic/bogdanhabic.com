@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HABIĆ - hi, my name is bogdan. i occasionally code.</title>
+    <link>https://bogdanhabic.com/</link>
+    <description>Recent content on HABIĆ - hi, my name is bogdan. i occasionally code.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Oct 1995 04:15:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://bogdanhabic.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Who Am I</title>
+      <link>https://bogdanhabic.com/who-am-i/</link>
+      <pubDate>Sun, 15 Oct 1995 04:15:00 +0100</pubDate>
+      
+      <guid>https://bogdanhabic.com/who-am-i/</guid>
+      <description>Hi! My name is Bogdan Habić and I was born  ago.
+In this time I had a lot of hobbies of which a rare few survived.
+var x = new Date(1995, 10, 15, 4, 15, 0, 0); var birthTimeAgo = document.getElementById(&#39;birth-time-ago&#39;); var epoch = new Date(&#39;1970-01-01 00:00:00-0600&#39;); var tick = function(){ var y = new Date(); var z = new Date(y - x); var diff_years = z.getYear() - epoch.getYear(); var diff_month = z.</description>
+    </item>
+    
+  </channel>
+</rss>

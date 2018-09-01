@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+		<title>
+				Who Am I &middot; HABIĆ - hi, my name is bogdan. i occasionally code.
+		</title>
+	
+		
+		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+		<link rel="stylesheet" href="https://bogdanhabic.com//highlight/styles/default.css">
+	
+		
+		<link rel="icon" type="image/png" sizes="32x32" href="https://bogdanhabic.com/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="https://bogdanhabic.com/images/favicon-16x16.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="https://bogdanhabic.com/images/apple-touch-icon.png">
+	
+		
+		<link href="" rel="alternate" type="application/rss+xml" title="HABIĆ - hi, my name is bogdan. i occasionally code." />
+
+		<script src="https://bogdanhabic.com//highlight/highlight.pack.js"></script>
+		<script>hljs.initHighlightingOnLoad();</script>
+</head>
+	
+
+  <body>
+		<nav class="nav">
+			<div class="nav-container">
+			<a href="https://bogdanhabic.com//">
+				<h2 class="nav-title">HABIĆ - hi, my name is bogdan. i occasionally code.</h2>
+			</a>
+			<ul>
+				<li><a href="https://bogdanhabic.com/who-am-i/">Who am I?</a></li>
+				<li><a href="https://bogdanhabic.com/">Posts</a></li>
+			</ul>
+			</div>
+		</nav>
+
+<main>
+	<div class="post">
+		<div class="post-info">
+		<span>Written by</span>
+			Bogdan Habić
+			<br>
+			<span>on&nbsp;</span><time datetime="1995-10-15 04:15:00 &#43;0100 CET">October 15, 1995</time>
+		</div>
+
+		<h1 class="post-title">Who Am I</h1>
+		<div class="post-line"></div>
+
+		<p>Hi! My name is Bogdan Habić and I was born <span id="birth-time-ago"></span> ago.</p>
+
+<p>In this time I had a lot of hobbies of which a rare few survived.</p>
+
+<script type="text/javascript">
+  var x = new Date(1995, 10, 15, 4, 15, 0, 0); var birthTimeAgo = document.getElementById('birth-time-ago'); var epoch = new Date('1970-01-01 00:00:00-0600'); var tick = function(){ var y = new Date(); var z = new Date(y - x); var diff_years = z.getYear() - epoch.getYear(); var diff_month = z.getMonth() - epoch.getMonth(); var diff_days = z.getDate() - epoch.getDate(); var diff_hours = z.getHours() - epoch.getHours(); var diff_minutes = z.getMinutes() - epoch.getMinutes(); var diff_seconds = z.getSeconds() - epoch.getSeconds(); birthTimeAgo.innerHTML = diff_years + " years, " + diff_month + " month" + (diff_month == 1 ? "" : "s") + ", " + diff_days + " day" + (diff_days == 1 ? "" : "s") + ", " + diff_hours + " hour" + (diff_hours == 1 ? "" : "s") + ", " + diff_minutes + " minute" + (diff_minutes == 1 ? "" : "s") + ", " + diff_seconds + " second" + (diff_seconds == 1 ? "" : "s"); };setInterval(tick, 1000); tick();
+</script>
+
+
+	</div>
+
+	<div class="pagination">
+
+		<a href="#" class="top">Top</a>
+	</div>
+</main>		<footer>
+			<span>
+			&copy; <time datetime="2018-09-01 02:33:26.141669443 &#43;0200 CEST m=&#43;0.045546338">2018</time> Bogdan Habić. Made with Hugo using the <a href="https://github.com/EmielH/tale-hugo/">Tale</a> theme.
+			</span>
+		</footer>
+  </body>
+</html>
