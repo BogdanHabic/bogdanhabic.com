@@ -1,0 +1,7 @@
+baseURL = "https://bogdanhabic.com/"
+languageCode = "en-us"
+title = "HABIĆ - hi, my name is bogdan. i occasionally code."
+theme = "tale"
+
+[params]
+  Author = "Bogdan Habić"
