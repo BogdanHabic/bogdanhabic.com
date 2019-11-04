@@ -3,6 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://bogdanhabic.com/</loc>
+    <lastmod>2015-11-29T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bogdanhabic.com/posts/</loc>
+    <lastmod>2015-11-29T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bogdanhabic.com/posts/ux-development-of-developer-ux-prelude/</loc>
     <lastmod>2015-11-29T00:00:00+02:00</lastmod>
   </url>
@@ -22,15 +34,7 @@
   </url>
   
   <url>
-    <loc>https://bogdanhabic.com/</loc>
-    <lastmod>2015-11-29T00:00:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bogdanhabic.com/posts/</loc>
-    <lastmod>2015-11-29T00:00:00+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://bogdanhabic.com/stvar/</loc>
   </url>
   
   <url>
